@@ -16,6 +16,9 @@ body {
 	background-color: #181d23;
 	overflow: scroll;
 }
+.active {
+    background-color: rgba(255, 255, 255, 0.2);
+}
 .panel {
 	width: 1600px;
 	height: 1000px;
