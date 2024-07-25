@@ -17,7 +17,7 @@ body {
 	overflow: scroll;
 }
 .active {
-    background-color: rgba(255, 255, 255, 0.2);
+	background-color: rgba(255, 255, 255, 0.2);
 }
 .panel {
 	width: 1600px;
@@ -27,68 +27,92 @@ body {
 	overflow: hidden;
 }
 .panel-left {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    background-color: #4b5769;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	background-color: #4b5769;
 }
 .panel-right {
 	background-image: linear-gradient(180deg, rgba(55, 64, 76, 1) 0%, rgba(21, 26, 32, 1) 100%);
 }
-/* section time*/
+
+/* nav - section time*/
 .date-box {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 160px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 160px;
 }
 .date-box .day {
-    font-size: 2rem;
+	font-size: 2rem;
 }
 .date-box .time {
-    font-size: 4rem;
-    font-weight: bold;
+	font-size: 4rem;
+	font-weight: bold;
 }
 .date-box .date {
-    font-size: 1.8rem;
+	font-size: 1.8rem;
 }
-/* section menu*/
+/* nav - section menu*/
 .menu {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    height: 700px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	height: 700px;
 }
 .menu a {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    width: 100%;
-    height: 30%;
-    text-decoration: none;
-    color: #fff;
-    border: 1px solid #ddd;
-    border-radius: 15px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	width: 100%;
+	height: 30%;
+	text-decoration: none;
+	color: #fff;
+	border: 1px solid #ddd;
+	border-radius: 15px;
 }
 .menu a:hover {
-    background-color: transparent;
-    background-image: linear-gradient(160deg, rgba(0,110,255,.25)0%, rgba(9,255,0,0.25)100%);
+	background-color: transparent;
+	background-image: linear-gradient(160deg, rgba(0, 110, 255, 0.25) 0%, rgba(9, 255, 0, 0.25) 100%);
 }
 
 .menu-item i {
-   font-size: 6rem; 
-   margin-bottom: 0.4rem;
+	font-size: 6rem;
+	margin-bottom: 0.4rem;
 }
 .menu-item p {
-    font-size: 2rem;
-    text-transform: uppercase;
+	font-size: 2rem;
+	text-transform: uppercase;
 }
-/* section info */
+/* nav - section info */
 .info-box h3 {
-    font-size: 2rem;
+	font-size: 2rem;
 }
 .info-box p {
-    font-size: 1.6rem;
+	font-size: 1.6rem;
+}
+/* section - main */
+.main-stats h1 {
+	font-size: 3rem;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.main-stat-box {
+	height: 140px;
+	border-radius: 15px;
+	transition: background-color 0.3s;
+}
+.main-stat-box:hover {
+	background-color: rgba(255, 255, 255, 0.08);
+}
+.main-stat-box h3 {
+	margin-bottom: 1em;
+	font-size: 1.8rem;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.main-stat-box p {
+	font-size: 1.2rem;
 }
