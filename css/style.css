@@ -280,3 +280,15 @@ option {
 .btn-primary, .btn-secondary {
 	border-radius: 6px;
 }
+/* users - list */
+.users-list li{
+	padding: 0.5em 1em;
+	margin: 0.2em 0;
+	font-size: 2rem;
+}
+.users-list .btn{
+	font-size: 1.6rem;
+}
+.users-list .list-group-item {
+	border: 1px solid #fff;
+}
