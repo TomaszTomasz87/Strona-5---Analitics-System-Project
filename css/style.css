@@ -217,7 +217,19 @@ option {
 	font-size: 1.4rem;
 }
 /* img */
+.active-users .card-img {
+	overflow: hidden;
+}
 .active-users img {
 	height: 180px;
 	object-fit: cover;
+	opacity: 0.6;
+	transition: opacity 0.3s, transform 0.3s;
+}
+.active-users img:hover {
+	opacity: 1;
+	transform: scale(1.1);
+}
+.active-users .card-body, .active-users .btn{
+	font-size: 1.5rem;
 }
