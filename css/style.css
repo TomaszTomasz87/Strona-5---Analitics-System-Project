@@ -230,6 +230,53 @@ option {
 	opacity: 1;
 	transform: scale(1.1);
 }
-.active-users .card-body, .active-users .btn{
+.active-users .card-body,
+.active-users .btn {
 	font-size: 1.5rem;
+}
+/* find - post */
+.find-post,
+.find-post input,
+.find-post .btn,
+.find-post .dropdown-item {
+	font-size: 1.6rem;
+
+}
+.find-post .btn  {
+	background-color: rgba(55, 64, 76, 1);
+	color: #fff;
+}
+.dropdown-menu {
+	background-color: rgba(55, 64, 76, 1);
+	color: #fff;
+}
+.dropdown-item {
+	color: #fff;
+}
+.find-post .btn:hover {
+	background-color: transparent;
+	color: #fff;
+}
+/* modal */
+.posts-modal h3 {
+	font-size: 1.7rem;
+	font-weight: bold;
+}
+.posts-modal p, .posts-modal .btn {
+	font-size: 1.4rem;
+}
+.posts-modal .modal-body .btn {
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 1.2rem;
+	border-radius: 6px;
+}
+.posts-modal .modal-body .btn i {
+	font-size: 2.2rem;
+}
+.posts-modal .modal-body .btn:hover {
+	color: #fff;
+}
+.btn-primary, .btn-secondary {
+	border-radius: 6px;
 }
