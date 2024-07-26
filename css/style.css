@@ -216,3 +216,8 @@ option {
 .featured-post .card-body {
 	font-size: 1.4rem;
 }
+/* img */
+.active-users img {
+	height: 180px;
+	object-fit: cover;
+}
