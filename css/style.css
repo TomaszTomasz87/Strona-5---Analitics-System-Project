@@ -188,13 +188,31 @@ option {
 	background-color: rgba(55, 64, 76, 1);
 	color: #fff;
 }
-.monthy-stats, .form-select, .monthly-stats option {
+.monthy-stats,
+.form-select,
+.monthly-stats option {
 	font-size: 1.6rem;
 	cursor: pointer;
 }
-.monthy-stats, .info {
+.monthy-stats,
+.info {
 	font-size: 1.8rem;
 }
 .monthly-stats .number {
+	font-size: 1.4rem;
+}
+/* posts.html  */
+.posts h3 {
+	font-size: 2.4rem;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.featured-post .btn {
+	font-size: 1.6rem;
+}
+.featured-post .card-title {
+	font-size: 1.8rem;
+}
+.featured-post .card-body {
 	font-size: 1.4rem;
 }
