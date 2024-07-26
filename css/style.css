@@ -300,3 +300,14 @@ option {
 .user-search .btn {
 	font-size: 2rem;
 }
+/* modal - users */
+.modal-content h3.card-title {
+	font-size: 2.6rem;
+}
+.modal-content label,
+.modal-content .newsletter,
+.modal-content select,
+.modal-content input,
+.modal-content .btn {
+	font-size: 1.6rem;
+}
