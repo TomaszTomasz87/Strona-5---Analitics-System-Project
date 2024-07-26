@@ -292,3 +292,11 @@ option {
 .users-list .list-group-item {
 	border: 1px solid #fff;
 }
+.user-search label,
+.user-search input, 
+.user-search select {
+	font-size: 1.6rem;
+}
+.user-search .btn {
+	font-size: 2rem;
+}
